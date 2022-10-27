@@ -1,1 +1,1 @@
-Next project template (scalable architecture)
+Next 13 project template (scalable architecture)
