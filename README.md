@@ -38,8 +38,7 @@ Experimental feature `appDir` in `next.config.js` is enabled. Experimental featu
 lts/hydrogen
 ```
 
-Node.js version is set to [Hydrogen](https://nodejs.org/download/release/latest-hydrogen/) (18.x)
-<br>
+Set Node.js version to [hydrogen](https://nodejs.org/download/release/latest-hydrogen/)
 
 `.npmrc`
 
@@ -48,7 +47,6 @@ engine-strict=true
 ```
 
 If set to true, then npm will stubbornly refuse to install (or even consider installing) any package that claims to not be compatible with the current Node.js version
-<br>
 
 `package.json`
 
@@ -60,7 +58,7 @@ If set to true, then npm will stubbornly refuse to install (or even consider ins
 },
 ```
 
-The `"engines"` field specifies what versions of Node and npm must be used.
+The `"engines"` field specifies what versions of Node.js and npm must be used.
 
 ## ESLint
 
@@ -73,7 +71,6 @@ The `"engines"` field specifies what versions of Node and npm must be used.
 ```
 
 `React` is always defined, even if it is not explicitly imported.
-<br>
 
 `.eslintrc.json`
 
@@ -84,7 +81,6 @@ The `"engines"` field specifies what versions of Node and npm must be used.
 ```
 
 Prefix variables with an underscore `_` that have been declared but not used yet.
-<br>
 
 ## Prettier
 
@@ -101,8 +97,7 @@ Prefix variables with an underscore `_` that have been declared but not used yet
 }
 ```
 
-Prettier configuration.
-<br>
+Prettier configuration file.
 
 `package.json`
 
@@ -128,7 +123,7 @@ Run `npm run prettier` to automatically format and save all files, except those 
   }
 ```
 
-This will ensure Husky gets installed automatically when other developers run the project.
+This will ensure Husky gets installed automatically when you run the project.
 <br>
 
 `commitlint.config.js` Contains the standard defaults for commit messages. [Learn more](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
