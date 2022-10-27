@@ -1,2 +1,1 @@
-# next-template
-Next Scalable Architecture: Project Template
+Next project template (scalable architecture)
