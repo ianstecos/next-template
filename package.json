@@ -11,7 +11,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "engines": {
     "node": ">=18.0.0",
@@ -25,6 +26,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "husky": "^8.0.1",
     "prettier": "^2.7.1"
   }
 }
