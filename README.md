@@ -1,4 +1,4 @@
-## Scalable Project Architecture Template
+## Scalable Project Template
 
 A template for creating a production-ready fullstack Next.js 13 application using `app/` directory (beta).
 
