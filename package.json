@@ -2,8 +2,7 @@
   "name": "next-template",
   "author": "YOUR_NAME_HERE",
   "description": "A template for creating a production-ready fullstack Next.js application",
-  "version": "0.1.0",
-  "private": true,
+  "version": "v1.0.0-alpha",
   "license": "Apache",
   "homepage": "YOUR_REPOSITORY_HERE",
   "scripts": {
