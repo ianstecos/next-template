@@ -19,17 +19,17 @@
     "npm": ">= 8.0.0"
   },
   "dependencies": {
-    "eslint-config-next": "^13.0.0",
-    "next": "^13.0.0",
+    "eslint-config-next": "^13.2.4",
+    "next": "^13.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "@types/react": "18.0.24",
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@types/react": "^18.0.31",
     "cross-env": "^7.0.3",
-    "husky": "^8.0.1",
-    "prettier": "^2.7.1"
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7"
   }
 }
